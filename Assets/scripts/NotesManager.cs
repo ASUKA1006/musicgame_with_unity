@@ -46,12 +46,13 @@ public class Settings{
 public class NotesManager : MonoBehaviour {
 	public SongMetadata currentSong;
 	private static readonly Vector3[] laneStart = new Vector3[] {
-		new Vector3 (-0.329f, -218.342f, -6.68f),
-		new Vector3 (-0.186f, -218.342f, -6.68f),
-		new Vector3 (-0.061f, -218.342f, -6.68f),
-		new Vector3 (0.08f, -218.342f, -6.68f),
-		new Vector3 (0.214f, -218.342f, -6.68f),
-		new Vector3 (0.356f, -218.342f, -6.68f)
+		new Vector3 (-0.426f, -218.252f, -6.489f),
+		new Vector3 (-0.256f, -218.252f, -6.489f),
+		new Vector3 (-0.106f, -218.252f, -6.489f),
+		new Vector3 (0.051f, -218.252f, -6.489f),
+		new Vector3 (0.201f, -218.252f, -6.489f),
+		new Vector3 (0.351f, -218.252f, -6.489f),
+		new Vector3 (0.501f, -218.252f, -6.489f)
 	};
 //	private static readonly Vector3[] laneStart = new Vector3[] {
 //		new Vector3 (-0.329f, -218.342f, -6.68f),

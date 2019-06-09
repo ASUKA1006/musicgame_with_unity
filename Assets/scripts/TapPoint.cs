@@ -36,8 +36,8 @@ public class TapPoint : MonoBehaviour {
 		var rate = passed_time / move_time;
 		if (destination.HasValue) {
 			transform.position = Vector3.Lerp (start_vector, destination.Value, rate);
-			Debug.Log ("value: " + destination.Value);
-			Debug.Log ("loc: " + this.gameObject.transform.position);
+			// Debug.Log ("value: " + destination.Value);
+			// Debug.Log ("loc: " + this.gameObject.transform.position);
 		}
 		passed_time += Time.deltaTime;
 	}
@@ -46,6 +46,7 @@ public class TapPoint : MonoBehaviour {
 	
 		if (destination.Value == this.gameObject.transform.position) {
 			this.gameObject.SetActive (false);
+			Destroy (this.gameObject);
 		}	
 	}	
 		
